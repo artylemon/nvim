@@ -3,7 +3,7 @@ require("artylemon.remap")
 require("artylemon.lazy_init")
 
 local augroup = vim.api.nvim_create_augroup
-local ConfigGroup = augroup('ThePrimeagen', {})
+local ConfigGroup = augroup('artylemon', {})
 
 local autocmd = vim.api.nvim_create_autocmd
 local yank_group = augroup('HighlightYank', {})
